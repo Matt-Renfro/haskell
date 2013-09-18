@@ -1,7 +1,6 @@
 -- Find the last element of a list
-module Problem1 where
+module Main where
 
-myLast :: [t] -> t
+myLast :: [a] -> a
 myLast [x] = x
 myLast (_:xs) = myLast xs
-
